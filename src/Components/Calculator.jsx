@@ -18,7 +18,7 @@ function Calculator() {
     //  not .......... 0 ka matlab start index and -1 matab last se 1 ke ilawa
   };
   const clear = () => {
-    setData("");
+    setData("0");
   };
 
   return (
