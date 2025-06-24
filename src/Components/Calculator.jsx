@@ -26,7 +26,7 @@ function Calculator() {
       <div className="mb-4 text-right text-2xl bg-gray-300 hover:bg-gray-400 p-8 rounded-2xl  overflow-auto ">
         <input placeholder="0" value={data}readOnly/>
       </div>
-
+<h1>Ahmad - Project - Calculator :</h1>
       <div className="grid grid-cols-4 gap-3 ">
         <button onClick={getValue} value="(">
           {" "}
