@@ -4,8 +4,12 @@ function Calculator() {
   const [data, setData] = useState("0");
 
   const getValue = (e) => {
-    console.log(e.target.value);
-    setData(data.concat(e.target.value));
+    if (data === "0") {
+  setData(e.target.value); // Replace '0' with the new number
+} else {
+  setData(data.concat(e.target.value));
+}
+
   };
 
   const calculation = () => {
