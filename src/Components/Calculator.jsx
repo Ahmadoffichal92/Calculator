@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Calculator() {
-  const [data, setData] = useState("");
+  const [data, setData] = useState("0");
 
   const getValue = (e) => {
     console.log(e.target.value);
